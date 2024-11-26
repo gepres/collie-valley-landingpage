@@ -1,0 +1,169 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Acumin+Variable+Concept:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  /* Colores principales */
+  --orange: #ff9126;
+  --orange-light: #ffc17a28;
+  --orange-dark: #cc741e;
+
+  --green-light: #9cbf3d;
+  --green-light-lighter: #c6e073;
+  --green-light-darker: #7a9b31;
+
+  --green-dark: #54853b;
+  --green-dark-lighter: #7ba55f;
+  --green-dark-darker: #3d642d;
+
+  /* Colores de texto */
+  --text-primary: var(--green-dark);
+  --text-secondary: var(--green-light);
+
+  /* Colores de fondo */
+  --bg-primary: var(--orange-light);
+  --bg-secondary: var(--green-light);
+
+  /* Tipografías */
+  --font-primary: 'Acumin Variable Concept', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+
+  /* Otros */
+  --black-matte: #1c1c1c; 
+}
+
+/* Estilos base */
+body {
+  font-family: var(--font-primary);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--text-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+  color: var(--text-secondary);
+}
+
+/* Clases de colores principales */
+.text-orange {
+  color: var(--orange);
+}
+
+.text-orange-light {
+  color: var(--orange-light);
+}
+
+.text-orange-dark {
+  color: var(--orange-dark);
+}
+
+.text-green-light {
+  color: var(--green-light);
+}
+
+.text-green-light-lighter {
+  color: var(--green-light-lighter);
+}
+
+.text-green-light-darker {
+  color: var(--green-light-darker);
+}
+
+.text-green-dark {
+  color: var(--green-dark);
+}
+
+.text-green-dark-lighter {
+  color: var(--green-dark-lighter);
+}
+
+.text-green-dark-darker {
+  color: var(--green-dark-darker);
+}
+
+/* Clases de colores de fondo */
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-orange-light {
+  background-color: var(--orange-light);
+}
+
+.bg-orange-dark {
+  background-color: var(--orange-dark);
+}
+
+.bg-green-light {
+  background-color: var(--green-light);
+}
+
+.bg-green-light-lighter {
+  background-color: var(--green-light-lighter);
+}
+
+.bg-green-light-darker {
+  background-color: var(--green-light-darker);
+}
+
+.bg-green-dark {
+  background-color: var(--green-dark);
+}
+
+.bg-green-dark-lighter {
+  background-color: var(--green-dark-lighter);
+}
+
+.bg-green-dark-darker {
+  background-color: var(--green-dark-darker);
+}
+
+/* Tipografías */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* Otros estilos */
+.height-700 {
+  height: 700px;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.nav-link:hover {
+  color: var(--green-dark-lighter);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--green-light);
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.shadow-sm {
+  box-shadow: 8px 34px 158px -49px rgba(198,224,115,1) !important;
+}
+
+.shadow {
+  box-shadow: 8px 34px 158px -100px rgba(198,224,115,1) !important;
+}
+
+.text-black-matte {
+  color: var(--black-matte);
+}
