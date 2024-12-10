@@ -34,9 +34,7 @@
     <title>Collie Valley</title>
     <link rel="stylesheet" href="css/theme.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -47,22 +45,12 @@
     >
       <div class="container">
         <a class="navbar-brand pe-4 fs-4 width-100" href="/">
-          <!-- <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            fill="currentColor"
-            class="bi bi-layers-half"
-            viewbox="0 0 16 16"
-          >
-            <path
-              d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"
-            />
-          </svg>
-          <span class="ms-1">
-            <img src="./img/logo_collie_valley.png" alt="" srcset="./img/logo_collie_valley.png">
-          </span> -->
-          <img src="./img/logo_collie_valley.png" alt="" class="w-100" srcset="./img/logo_collie_valley.png">
+          <img
+            src="./img/logo_collie_valley.png"
+            alt=""
+            class="w-100"
+            srcset="./img/logo_collie_valley.png"
+          />
         </a>
 
         <button
@@ -76,31 +64,35 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link text-green-dark "
-                href="#services"
-                aria-label="Brings you to the frontpage"
-              >
-              Acerca de nosotros
+              <a class="nav-link text-green-dark fw-bold" href="#aboutus">
+                Nosotros
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-green-dark" href="#aboutus"> Servicios </a>
+              <a class="nav-link text-green-dark fw-bold" href="#services">
+                Servicios
+              </a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-green-dark" href="#numbers"> Numbers </a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link text-green-dark" href="#gallery"> Galeria </a>
+              <a class="nav-link text-green-dark fw-bold" href="#products">
+                Productos
+              </a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-green-dark" href="#workwithus"> Work with us </a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link text-green-dark" href="#workwithus"> Contacto </a>
+              <a class="nav-link text-green-dark fw-bold" href="#contacts">
+                Contactos</a>
             </li>
           </ul>
         </div>
@@ -115,95 +107,202 @@
             data-aos="fade-left"
             style="background-image: url(img/perfil_collie_valley.png)"
           ></div>
-          <!-- <div class="row">
-            <div
-              class="col-lg-7 py-vh-6 position-relative"
-              data-aos="fade-right"
-            >
-              <h1 class="display-1 fw-bold mt-5 text-green">
-                Sell more useless stuff faster!
-              </h1>
-              <p class="lead">
-                To be honest, this is just a stupid placeholder text. We don´t
-                know how to sell anything, not even lesser or slower as you.
-              </p>
-              <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5"
-                >Get started free</a
-              >
+        </div>
+      </div>
+
+
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-6">
+              <div class="row gx-5 d-flex">
+                <div class="col-md-11">
+                  <div
+                    class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/recursos/nosotros-1.jpg);
+                      --bs-aspect-ratio: 50%;
+                    "
+                  ></div>
+                </div>
+                <div class="col-md-5 offset-md-1">
+                  <div
+                    class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end"
+                    data-aos="fade-up"
+                    style="
+                      background-image: url(img/recursos/nosotros-2.jpg);
+                    "
+                  ></div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="col-12 shadow ratio rounded bg-cover mt-5 bp-center"
+                    data-aos="fade-left"
+                    style="
+                      background-image: url(img/recursos/nosotros-3.jpg);
+                      --bs-aspect-ratio: 150%;
+                    "
+                  ></div>
+                </div>
+              </div>
             </div>
-          </div> -->
+            <div class="col-lg-4">
+              <h3 class="py-5 border-top border-dark fw-bold" data-aos="fade-left">
+                En Collie Valley, llevamos la riqueza agrícola del Perú al mundo.
+              </h3>
+              <p data-aos="fade-left" data-aos-delay="200">
+                Nos especializamos en la exportación de productos frescos de alta calidad, como palta Hass, uva y arándano, ofreciendo soluciones integrales desde el campo hasta su destino final.
+
+                Nuestra experiencia, equipo técnico calificado y enfoque en certificaciones internacionales garantizan productos que cumplen con los más altos estándares de seguridad y calidad. Somos más que una empresa agroexportadora, somos el puente entre los productores peruanos y los mercados globales.
+                
+                ¡Conoce más sobre nuestro compromiso con la excelencia y cómo podemos crecer juntos
+              </p>
+              <p>
+                <!-- <a
+                  href="#"
+                  class="link-fancy link-dark"
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  >Learn more
+                </a> -->
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="py-vh-5 w-100 overflow-hidden" id="services">
         <div class="container">
-          <div class="row d-flex justify-content-end">
-            <div class="col-lg-8" data-aos="fade-down">
-              <h2 class="display-6 text-green-dark-darker">
-                Nuestro compromiso con la calidad, la sostenibilidad y la innovación nos hace únicos en la industria agroexportadora."
-              </h2>
+          <div class="row d-flex justify-content-between align-items-start">
+            <div class="col-lg-5">
+              <h3
+                class="py-5 border-top border-dark text-green-dark-darker fw-bold"
+                data-aos="fade-right"
+              >
+              Exportación de Productos Frescos
+              </h3>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <h2
+                    class="display-6 mb-3 text-green-dark-darker fs-4"
+                    data-aos="fade-down"
+                  >
+                  Nuestro compromiso con la calidad, la sostenibilidad y la innovación nos hace únicos en la industria agroexportadora."
+                  </h2>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <!-- <div class="display-1 fw-bold py-4 text-green-dark-darker">
+                    42%
+                  </div> -->
+                  <!-- <p class="text-black-50">
+                    Donec id elit non mi porta gravida at eget metus. Fusce
+                    dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                    nibh, ut fermentum massa justo sit amet risus. Etiam porta
+                    sem malesuada magna mollis euismod. Donec sed odio dui.
+                  </p> -->
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <figure class="figure">
+                    <img src="./img/recursos/exportacion-productos.jpeg" class="figure-img image-services" alt="...">
+                    <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
+                  </figure>
+                  <!-- <img src="./img/recursos/exportacion-productos.jpeg" class="" alt="" srcset=""> -->
+                  <!-- <div class="display-1 fw-bold py-4 text-green-dark-darker">
+                    +300
+                  </div>
+                  <p class="text-black-50">
+                    Donec id elit non mi porta gravida at eget metus. Fusce
+                    dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                    nibh, ut fermentum massa justo sit amet risus. Etiam porta
+                    sem malesuada magna mollis euismod. Donec sed odio dui.
+                  </p> -->
+                </div>
+              </div>
             </div>
           </div>
+          <div class="row d-flex justify-content-between align-items-start margin-5rem-top-bottom ">
+            <div class="col-lg-5">
+              <h3
+                class="py-5 border-top border-dark text-green-dark-darker fw-bold"
+                data-aos="fade-right"
+              >
+              Comercialización de Productos Agrícolas
+              </h3>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <h2
+                    class="display-6 mb-3 text-green-dark-darker fs-4"
+                    data-aos="fade-down"
+                  >
+                  Nos encargamos de la compra y venta de productos agrícolas en el mercado nacional e internacional, optimizando la cadena productiva y reduciendo mermas para maximizar la rentabilidad.
+                  </h2>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <figure class="figure">
+                    <img src="./img/recursos/comercializacion-productos.jpg" class="figure-img image-services" alt="...">
+                  </figure>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-between align-items-start">
+            <div class="col-lg-5">
+              <h3
+                class="py-5 border-top border-dark text-green-dark-darker fw-bold"
+                data-aos="fade-right"
+              >
+              Soluciones Integrales para la Industria Agrícola
+              </h3>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <h2
+                    class="display-6 mb-3 text-green-dark-darker fs-4"
+                    data-aos="fade-down"
+                  >
+                  Proveemos asesoría y apoyo logístico para productores interesados en ingresar al mercado global, con servicios que incluyen transporte, almacenamiento y gestión de calidad.
+                  </h2>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <figure class="figure">
+                    <img src="./img/recursos/soluciones-integrales.jpg" class="figure-img image-services" alt="...">
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="container">
+          <!-- <div class="row d-flex justify-content-end">
+            <div class="col-lg-8" data-aos="fade-down">
+              <h2 class="display-6 text-green-dark-darker">
+                Nuestro compromiso con la calidad, la sostenibilidad y la
+                innovación nos hace únicos en la industria agroexportadora."
+              </h2>
+            </div>
+          </div> -->
           <div class="row d-flex align-items-center">
-            <div
-              class="col-md-6 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <span class="h5 fw-lighter text-green-dark-darker">01.</span>
-              <h3 class="py-5 border-top border-dark text-green-dark-darker">
-                Excelencia en la calidad
-              </h3>
-              <p class="text-black-matte">
-                Nos aseguramos de que cada fruta que exportamos cumpla con los más altos estándares internacionales, desde el cultivo hasta el envío.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet mi non nisi efficitur interdum. Quisque eget libero venenatis, aliquet sem sed, pellentesque magna.
-              </p>
-              <!-- <a href="#" class="link-fancy">Learn more </a> -->
-            </div>
-
-            <div
-              class="col-md-6 col-lg-4 py-vh-4 pb-0"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <span class="h5 fw-lighter text-green-dark-darker">02.</span>
-              <h3 class="py-5 border-top border-dark text-green-dark-darker">
-                Compromiso con la sostenibilidad
-              </h3>
-              <p class="text-black-matte">
-                Nuestros procesos respetan y protegen el medio ambiente, utilizando prácticas agrícolas responsables que aseguran la conservación de los recursos naturales.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet mi non nisi efficitur interdum. Quisque eget libero venenatis, aliquet sem sed, pellentesque magna.
-              </p>
-              <!-- <a href="#" class="link-fancy">Learn more </a> -->
-            </div>
-
-            <div
-              class="col-md-6 col-lg-4 py-vh-6 pb-0"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <span class="h5 fw-lighter text-green-dark-darker">03.</span>
-              <h3 class="py-5 border-top border-dark text-green-dark-darker">
-                Presencia internacional
-              </h3>
-              <p class="text-black-matte">
-                Exportamos nuestros productos a mercados clave en todo el mundo, llevando lo mejor de Ica, Perú, a cada rincón del planeta.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet mi non nisi efficitur interdum. Quisque eget libero venenatis, aliquet sem sed, pellentesque magna.
-
-Este texto puede ajustarse según los valores y objetivos específicos de la empresa. ¿Te gustaría que personalice aún más algún aspecto?
-              </p>
-              <!-- <a href="#" class="link-fancy">Learn more </a> -->
-            </div>
+        
           </div>
         </div>
       </div>
 
-      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="products">
         <div class="container">
-          <div class="row d-flex justify-content-between align-items-center">
+          <!-- <div class="row d-flex justify-content-between align-items-center">
             <div class="col-lg-6">
               <div class="row gx-5 d-flex">
                 <div class="col-md-11">
@@ -220,7 +319,9 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
                   <div
                     class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end"
                     data-aos="fade-up"
-                    style="background-image: url(img/template/webp/interior42.webp)"
+                    style="
+                      background-image: url(img/template/webp/interior42.webp);
+                    "
                   ></div>
                 </div>
                 <div class="col-md-6">
@@ -247,38 +348,152 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
                 fermentum massa justo sit amet risus.
               </p>
               <p>
-                <!-- <a
-                  href="#"
-                  class="link-fancy link-dark"
-                  data-aos="fade-left"
-                  data-aos-delay="400"
-                  >Learn more
-                </a> -->
               </p>
+            </div>
+          </div> -->
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">01.Palta Hass</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span> Persea americana</li>
+                  <li class="mb-4"><span class="fw-bold">Características: </span> Fruto de piel rugosa, tamaño uniforme y alto contenido de aceite.</li>
+                  <li class="mb-4"><span class="fw-bold">Calidad: </span>Cumple con estándares internacionales (Global GAP, HACCP).</li>
+                  <li class="mb-4"><span class="fw-bold">Mercados: </span> Europa, EE.UU., Asia.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span> Cajas de 4 kg y 10 kg.</li>
+                </ul>
+              </h3>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-4 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">02. Arándano Fresco (Variedades Ventura y Biloxi)</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span>  Vaccinium corymbosum</li>
+                  <li class="mb-4"><span class="fw-bold">Características: </span> Frutos grandes, firmes y dulces, con excelente vida útil y sabor.</li>
+                  <li class="mb-4"><span class="fw-bold">Calidad: </span>12-18 mm.</li>
+                  <li class="mb-4"><span class="fw-bold">Mercados: </span> Fresco para consumo directo en EE.UU., Europa y Asia.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span>  Clamshells de 125 g, 170 g, 250 g y cajas de 1.5 kg.</li>
+                </ul>
+              </h3>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-6 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">03. Uva (Red Globe y Sweet Globe)</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span> Vitis vinifera</li>
+                  <li class="mb-4"><span class="fw-bold">Variedad Red Globe: </span> Bayas grandes, color rojo púrpura, crujientes y dulces.</li>
+                  <li class="mb-4"><span class="fw-bold">Variedad Sweet Globe: </span> Uva verde sin semillas, firme y con alta dulzura natural.</li>
+                  <li class="mb-4"><span class="fw-bold">Calidad: </span> Certificada bajo estándares Global GAP y HACCP.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span> Cajas de 8.2 kg y 4.5 kg para exportación.</li>
+                  <li class="mb-4"><span class="fw-bold">Soluciones: </span> Soluciones Integrales para la Industria Agrícola.</li>
+                </ul>
+              </h3>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+      <div>
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">04.Paprika</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span> Capsicum annuum</li>
+                  <li class="mb-4"><span class="fw-bold">Variedad: </span> Paprika seca deshidratada.</li>
+                  <li class="mb-4"><span class="fw-bold">Características: </span> Color rojo intenso, alto contenido de capsantina, ideal para la industria alimentaria.</li>
+                  <li class="mb-4"><span class="fw-bold">Procesamiento: </span> Entera, molida o triturada.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span> Sacos de 25 kg y 50 kg.</li>
+                </ul>
+              </h3>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-4 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">05. Mandarina W Murcott</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span> Citrus reticulata</li>
+                  <li class="mb-4"><span class="fw-bold">Características: </span> Fruto dulce, fácil de pelar, con pocas semillas y alto contenido de jugo.</li>
+                  <li class="mb-4"><span class="fw-bold">Calibre: </span> 1X, 2X, 3X.</li>
+                  <li class="mb-4"><span class="fw-bold">Mercados: </span> Ideal para consumo fresco en mercados europeos y asiáticos.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span> Cajas de 10 kg y mallas de 2 kg.</li>
+                </ul>
+              </h3>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-6 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <span class="h4 fw-lighter text-green-dark-darker fw-bold">06. Jengibre</span>
+              <h3 class="py-5 border-top border-dark text-green-dark-darker">
+                <ul class="size-16px">
+                  <li class="mb-4"><span class="fw-bold">Nombre Científico: </span> Zingiber officinale</li>
+                  <li class="mb-4"><span class="fw-bold">Características: </span> Raíz fresca de color amarillo brillante, con alto contenido de aceites esenciales y propiedades medicinales.</li>
+                  <li class="mb-4"><span class="fw-bold">Calibre: </span> 100 g - 300 g por pieza.</li>
+                  <li class="mb-4"><span class="fw-bold">Procesamiento: </span> Fresco, pelado o deshidratado.</li>
+                  <li class="mb-4"><span class="fw-bold">Presentación: </span> Cajas de 13.6 kg o a granel para exportación.</li>
+                </ul>
+              </h3>
+              <!-- <p class="text-black-matte">
+                Proveemos asesoría y apoyo logístico para productores interesados en ingresar al mercado global, con servicios que incluyen transporte, almacenamiento y gestión de calidad.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
         <div class="container">
           <div class="row d-flex justify-content-between align-items-center">
             <div class="col-lg-5">
-              <h3 class="py-5 border-top border-dark text-green-dark-darker" data-aos="fade-right">
+              <h3
+                class="py-5 border-top border-dark text-green-dark-darker"
+                data-aos="fade-right"
+              >
                 Our magic numbers
               </h3>
             </div>
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-12">
-                  <h2 class="display-6 mb-5 text-green-dark-darker" data-aos="fade-down">
+                  <h2
+                    class="display-6 mb-5 text-green-dark-darker"
+                    data-aos="fade-down"
+                  >
                     There are some important numbers for us. They are just
                     numbers without any meaning, but we just love them.
                   </h2>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up">
-                  <div class="display-1 fw-bold py-4 text-green-dark-darker">42%</div>
-                  <p class="text-black-50 ">
+                  <div class="display-1 fw-bold py-4 text-green-dark-darker">
+                    42%
+                  </div>
+                  <p class="text-black-50">
                     Donec id elit non mi porta gravida at eget metus. Fusce
                     dapibus, tellus ac cursus commodo, tortor mauris condimentum
                     nibh, ut fermentum massa justo sit amet risus. Etiam porta
@@ -286,7 +501,9 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
                   </p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up">
-                  <div class="display-1 fw-bold py-4 text-green-dark-darker">+300</div>
+                  <div class="display-1 fw-bold py-4 text-green-dark-darker">
+                    +300
+                  </div>
                   <p class="text-black-50">
                     Donec id elit non mi porta gravida at eget metus. Fusce
                     dapibus, tellus ac cursus commodo, tortor mauris condimentum
@@ -298,7 +515,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div
         class="position-relative overflow-hidden w-100 bg-light"
@@ -312,7 +529,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
               >
                 <div class="col-md-2" data-aos="fade-up">
                   <img
-                    src="img/template/webp/interior37.webp"
+                    src="img/recursos/arandanos.jpg"
                     class="rounded shadow img-fluid"
                     alt="nice gallery image"
                     width="512"
@@ -322,7 +539,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
 
                 <div class="col-md-2" data-aos="fade-up" data-aos-delay="200">
                   <img
-                    src="img/template/webp/people1.webp"
+                    src="img/recursos/palta-hass.png"
                     class="img-fluid rounded shadow"
                     alt="nice gallery image"
                     width="1164"
@@ -332,7 +549,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
 
                 <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
                   <img
-                    src="img/template/webp/people2.webp"
+                    src="img/recursos/uva-sweet-globe.jpg"
                     class="img-fluid rounded shadow"
                     alt="nice gallery image"
                     width="844"
@@ -342,7 +559,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
 
                 <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
                   <img
-                    src="img/template/webp/interior29.webp"
+                    src="img/recursos/mandarina.jpg"
                     class="img-fluid rounded shadow"
                     alt="nice gallery image"
                     width="844"
@@ -352,7 +569,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
 
                 <div class="col-md-2" data-aos="fade-up" data-aos-delay="800">
                   <img
-                    src="img/template/webp/people23.webp"
+                    src="img/recursos/jengibre.jpg"
                     class="rounded shadow img-fluid"
                     alt="nice gallery image"
                     width="512"
@@ -365,11 +582,11 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
         </div>
       </div>
 
-      <!-- <div class="container py-vh-4 w-100 overflow-hidden">
+      <div class="container py-vh-4 w-100 overflow-hidden" id="contacts">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-5">
             <h3 class="py-5 border-top border-dark text-green-dark-darker" data-aos="fade-right">
-              What our clients say
+              Lo que dicen nuestros clientes
             </h3>
           </div>
           <div class="col-md-7" data-aos="fade-left">
@@ -395,650 +612,9 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
             </blockquote>
           </div>
         </div>
-      </div> -->
-
-      <div
-        class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden"
-        id="workwithus"
-      >
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="row d-flex justify-content-center text-center">
-              <div class="col-lg-8 text-center" data-aos="fade">
-                <p class="text-secondary lead">
-                  Let´s start a project together!
-                </p>
-                <h2 class="display-6 mb-5">
-                  Hell no! This button is linked to a none working contact form.
-                  A none working form without any user feedback. So you might
-                  think you done something wrong. But in reality we just don´t
-                  want to start anything with you or anyone else.
-                </h2>
-              </div>
-              <div class="col-12">
-                <a
-                  href="#"
-                  class="btn btn-warning btn-xl shadow me-3 mt-4"
-                  data-aos="fade-down"
-                  >Get in contact</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
-      <div class="bg-light w-100 overflow-hidden" id="testimonials">
-        <div class="container py-vh-6">
-          <div class="row d-flex justify-content-center">
-            <div class="col-12 col-lg-10 col-xl-8 text-center">
-              <h2 class="display-6">Loved by people all around the globe</h2>
-              <p class="lead">
-                Our spaces and offices are soooooo lovely, no one would give us
-                a negative rating! And look at these trustworthy avatar
-                pictures! Trust us!
-              </p>
-            </div>
-            <div class="col-12 mt-4">
-              <div
-                class="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center"
-              >
-                <div class="col-12 col-lg-6 col-xl-4" data-aos="fade-right">
-                  <div class="card p-4 mt-3 border-0">
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-half"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "That service is really really good. And I don´t say
-                          that because they pay me a lot of money. I say that
-                          because they don´t pay me more money anymore if I
-                          don´t say it..."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <div>
-                          <span class="h6 fw-5">Jane Doemunsky</span><br />
-                          <small class="text-muted">COO, The Boo Corp.</small>
-                        </div>
-                        <img
-                          src="img/template/webp/person9.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-4">
-                  <div
-                    class="card p-4 shadow mt-3 border-0"
-                    data-aos="fade-down"
-                  >
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "I really don´t get what they do. Something with
-                          Crypto, NFT´s, SaaS and Cyber Security. Maybe an App
-                          for Kids...? But they have this nice website...so who
-                          cares what they do as long as they are good at it."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <p class="card-text">
-                          <span class="h6 fw-5">Jenny Matrix</span><br />
-                          <small class="text-muted"
-                            >Daughter of Col. John Matrix, Commando.</small
-                          >
-                        </p>
-                        <img
-                          src="img/template/webp/person3.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-4">
-                  <div class="card p-4 mt-3 border-0" data-aos="fade-left">
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                          />
-                        </svg>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                          />
-                        </svg>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "I don´t know if they are good at what they do. But
-                          they have nice coffee and a shiny brand new startup
-                          office with bikes on the wall and all that stuff."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <p class="card-text">
-                          <span class="h6 fw-5">Rustin Cohle</span><br />
-                          <small class="text-muted"
-                            >Detective, Somewhere in the swamps</small
-                          >
-                        </p>
-                        <img
-                          src="img/template/webp/person8.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-4">
-                  <div class="card p-4 mt-3 border-0" data-aos="fade-right">
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-half"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"
-                          />
-                        </svg>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "Its not good at all but I give it five stars because
-                          I killed (accidentally) the CEO´s cat with a
-                          lawnmover."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <p class="card-text">
-                          <span class="h6 fw-5">Richard Thornburg</span><br />
-                          <small class="text-muted"
-                            >News Reporter, KFLW-TV</small
-                          >
-                        </p>
-                        <img
-                          src="img/template/webp/person14.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-4">
-                  <div class="card p-4 mt-3 border-0" data-aos="fade-up">
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-half"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "I´am just a guy who uploads his picture to
-                          unsplash.com so that others can use me as placeholder
-                          for stupid sample avatars. I don´t even know that my
-                          face is on this website."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <p class="card-text">
-                          <span class="h6 fw-5">Harry Walters</span><br />
-                          <small class="text-muted">Gangster, In Bruges</small>
-                        </p>
-                        <img
-                          src="img/template/webp/person13.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-4">
-                  <div
-                    class="card p-4 shadow mt-3 border-0"
-                    data-aos="fade-left"
-                  >
-                    <div class="card-body">
-                      <div class="text-dark py-2 fs-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-                      </div>
-                      <blockquote class="blockquote">
-                        <p>
-                          "Okay, okay, I give it five stars. But do you know
-                          what: There is a infinit number of stars out there. So
-                          five means nothing."
-                        </p>
-                      </blockquote>
-                      <div
-                        class="d-flex justify-content-between border-top pt-3"
-                      >
-                        <p class="card-text">
-                          <span class="h6 fw-5">Lizzie Stark</span><br />
-                          <small class="text-muted"
-                            >Head of Security, Brummagem Boys</small
-                          >
-                        </p>
-                        <img
-                          src="img/template/webp/person18.webp"
-                          width="48"
-                          height="48"
-                          class="rounded-circle"
-                          alt=""
-                          data-aos="fade"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="small py-vh-3 w-100 overflow-hidden">
+      <!-- <div class="small py-vh-3 w-100 overflow-hidden">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up">
@@ -1136,7 +712,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div
         class="container py-vh-3 border-top"
@@ -1195,43 +771,33 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
               />
             </svg>
             <address class="text-secondary mt-3">
-              <strong>Stride, Inc.</strong><br />
+              <strong>Collie valley, Inc.</strong><br />
               1355 Market St, Suite 900<br />
-              San Francisco, CA 94103<br />
+              Perú, ICA 94103<br />
               <abbr title="Phone">P:</abbr>
               (123) 456-7890
             </address>
           </div>
           <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-            <h3 class="h6 mb-3">Company</h3>
+            <h3 class="h6 mb-3">Compañía</h3>
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a
                   class="nav-link link-secondary ps-0"
                   aria-current="page"
                   href="#"
-                  >Lorem ipsum</a
+                  >Nosotros</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link link-secondary ps-0" href="#"
-                  >Dolor sitam est</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-secondary ps-0" href="#"
-                  >Sed odio cras</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-secondary ps-0" href="#"
-                  >Commodo tortor ac</a
+                  >Servicios</a
                 >
               </li>
             </ul>
           </div>
           <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-            <h3 class="h6 mb-3">Products</h3>
+            <h3 class="h6 mb-3">Productos</h3>
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a
@@ -1243,28 +809,22 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
               </li>
               <li class="nav-item">
                 <a class="nav-link link-secondary ps-0" href="#"
-                  >Donec sed dui</a
+                  >Palta Hass</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link link-secondary ps-0" href="#"
-                  >Tortor mauris</a
+                  >Arándano Fresco</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link link-secondary ps-0" href="#"
-                  >Ut fermentum massa</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link link-secondary ps-0" href="#"
-                  >Magna mollis</a
+                  >Mandarina W Murcott</a
                 >
               </li>
             </ul>
           </div>
-          <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <!-- <div class="col-12 col-lg-6 col-xl-3 p-5">
             <h3 class="h6 mb-3">Subpages</h3>
             <ul class="nav flex-column">
               <li class="nav-item">
@@ -1288,7 +848,7 @@ Este texto puede ajustarse según los valores y objetivos específicos de la emp
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
 
