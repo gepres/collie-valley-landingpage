@@ -5,7 +5,7 @@
 :root {
   /* Colores principales */
   --orange: #ff9126;
-  --orange-light: #ffc17a28;
+  --orange-light: #f8aa51f6;
   --orange-dark: #cc741e;
 
   --green-light: #9cbf3d;
@@ -21,8 +21,9 @@
   --text-secondary: var(--green-light);
 
   /* Colores de fondo */
-  --bg-primary: var(--orange-light);
-  --bg-secondary: var(--green-light);
+  /* --bg-primary: var(--orange-light); */
+  --bg-primary: var(--green-light);
+  --bg-secondary: var(--orange-light);
 
   /* Tipografías */
   --font-primary: 'Acumin Variable Concept', sans-serif;
@@ -186,4 +187,11 @@ p {
 .margin-5rem-top-bottom {
   margin-top: 6.5rem;
   margin-bottom: 6.5rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.bg-black-matte {
+    background-color: var(--black-matte);
 }
