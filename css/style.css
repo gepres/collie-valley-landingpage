@@ -294,8 +294,9 @@ p {
 }
 
 .content-img-only img {
-  height: 350px;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 /* 
 padding: 0 !important;
