@@ -353,3 +353,34 @@ max-width: 100%; */
 .btn-outline-green-dark{
   border: 2px solid var(--green-dark);
 }
+.btn-outline-green-dark:hover{
+  border: 2px solid var(--green-dark);
+}
+
+.btn-contact-wsp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.btn-contact-wsp svg{
+  position: absolute;
+  left: 15px;
+}
+.padding-wsp{
+  padding: 1rem;
+}
+
+@media (min-width: 767px) {
+  .padding-wsp{
+    padding: 3rem;
+  }
+}
+
+.nav-link:hover{
+  color: #fff;
+}
+.hover-text-white:hover {
+  color: #fff;
+}
