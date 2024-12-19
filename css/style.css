@@ -126,6 +126,10 @@ p {
   background-color: var(--green-dark-darker);
 }
 
+.text-gray-ccc {
+  color: #cccccc
+}
+
 /* Tipografías */
 .font-primary {
   font-family: var(--font-primary);
@@ -144,6 +148,13 @@ p {
   width: 100px;
 }
 
+.nav-item{
+  margin-right:2rem !important;
+}
+.nav-item:last-child{
+  margin-right:0 !important;
+}
+
 .nav-link:hover {
   color: var(--green-dark-lighter);
 }
@@ -151,6 +162,10 @@ p {
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: var(--green-light);
+}
+
+.navbar-collapse.collapse.show, .navbar-collapse.collapsing {
+  background: transparent !important;
 }
 
 .height-100vh {
@@ -182,8 +197,12 @@ p {
   justify-content: center;
 }
 
+.figure-image-services  img{
+  object-fit: cover;
+}
+
 .image-services {
-  border-radius: 30px;
+  border-radius: 5px;
   width: 260px;
   height: 260px;
 }
@@ -208,8 +227,8 @@ p {
 }
 
 .profile-card {
-  background: #fff;
-  border-radius: 15px;
+  background: transparent;
+  border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   max-width: 400px;
   position: relative;
@@ -224,10 +243,14 @@ p {
   z-index: 1;
   /* margin-top: 2rem; */
   height: 150px;
-  background: linear-gradient(135deg, #ff9126 50%, transparent 50%);
+  background: linear-gradient(135deg,rgba(255, 146, 38, 0.68) 50%, transparent 50%);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.profile-card .header-transparent {
+  background: linear-gradient(135deg,rgba(255, 255, 255, .68)  50%, transparent 50%) !important;
 }
 
 .profile-card .header img {
@@ -237,7 +260,7 @@ p {
   border: 4px solid #fff;
   object-fit: cover;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
   transform: translateX(-50%);
 }
@@ -258,7 +281,7 @@ p {
   margin-bottom: 1.5rem;
 }
 .profile-card .content {
-  min-height: 300px;
+  /* min-height: 340px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,6 +302,12 @@ p {
 
 .profile-card .content .fw-bold {
   color: #000;
+}
+
+.profile-card-container{
+  background: #fff;
+  min-height: 420px;
+  max-height: 420px;
 }
 
 .content-img-only{
